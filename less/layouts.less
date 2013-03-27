@@ -6,6 +6,9 @@
 // Container (centered, fixed-width layouts)
 .container {
   .container-fixed();
+  min-height: 100%;
+  height: auto !important;
+  height: 100%; 
 }
 
 // Fluid layouts (left aligned, with sidebar, min- & max-width content)
@@ -13,4 +16,7 @@
   padding-right: @gridGutterWidth;
   padding-left: @gridGutterWidth;
   .clearfix();
+  min-height: 100%;
+  height: auto !important;
+  height: 100%; 
 }

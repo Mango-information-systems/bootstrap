@@ -6,8 +6,13 @@
 // Body reset
 // -------------------------
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  height: 100%;
   font-family: @baseFontFamily;
   font-size: @baseFontSize;
   line-height: @baseLineHeight;
@@ -15,6 +20,19 @@ body {
   background-color: @bodyBackground;
 }
 
+article {
+  padding: 12px;
+  line-height: @baseLineHeight;
+  border: 1px solid #ddd;
+  .border-radius(@baseBorderRadius);
+  background: @white;
+  .box-shadow(3px 3px 3px rgba(0,0,0,.475));
+}
+
+footer {
+  height: 40px;
+  border-top: 1px solid @grayLighter;
+}
 
 // Links
 // -------------------------
