@@ -595,7 +595,7 @@
     }
 
     .row {
-      margin-left: @gridGutterWidth * -1;
+      margin-left: @gridGutterWidth * -.5;
       .clearfix();
     }
 
@@ -650,6 +650,7 @@
     .row-fluid {
       width: 100%;
       .clearfix();
+      margin-left: @gridGutterWidth * -.5;
       [class*="span"] {
         .input-block-level();
         float: left;
