@@ -32,6 +32,10 @@ build:
 	@cat docs/assets/js/copyright.js docs/assets/js/bootstrap.min.tmp.js > docs/assets/js/bootstrap.min.js
 	@rm docs/assets/js/copyright.js docs/assets/js/bootstrap.min.tmp.js
 	@echo "Compiling and minifying javascript...       ${CHECK} Done"
+	@cp bootstrap/css/bootstrap.min.css ../mango-blog/css/
+	@cp bootstrap/css/bootstrap-responsive.min.css ../mango-blog/css/
+	@cp bootstrap/js/bootstrap.min.js ../mango-blog/js/
+	@echo "Copying files to blog assets directory...       ${CHECK} Done"
 	@echo "\n${HR}"
 	@echo "Bootstrap successfully built at ${DATE}."
 	@echo "${HR}\n"
