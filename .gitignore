@@ -35,3 +35,7 @@ nbproject
 .idea
 node_modules
 dist
+
+# custom
+bootstrap
+js/tests/pid.txt
