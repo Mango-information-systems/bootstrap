@@ -21,7 +21,7 @@ body {
 }
 
 article {
-  padding: 12px;
+  padding: 24px;
   line-height: @baseLineHeight;
   border: 1px solid #ddd;
   .border-radius(@baseBorderRadius);
@@ -34,6 +34,15 @@ footer {
   margin-top: 10px;
   border-top: 1px solid @grayLighter;
   padding-top: 15px;
+}
+
+.section {
+	margin-left: @gridGutterWidth * 2;
+}
+
+	
+.section h2, .section h3 {
+	margin-left: @gridGutterWidth * -2;
 }
 
 // Links
