@@ -35,7 +35,7 @@ build:
 	@cp bootstrap/css/bootstrap.min.css ../mango-blog/css/
 	@cp bootstrap/css/bootstrap-responsive.min.css ../mango-blog/css/
 	@cp bootstrap/js/bootstrap.min.js ../mango-blog/js/
-	@echo "Copying files to blog assets directory...       ${CHECK} Done"
+	@echo "Copying files to blog directories...       ${CHECK} Done"
 	@echo "\n${HR}"
 	@echo "Bootstrap successfully built at ${DATE}."
 	@echo "${HR}\n"
@@ -66,8 +66,7 @@ clean:
 # recess & uglifyjs are required
 #
 
-bootstrap: bootstrap-img bootstrap-css bootstrap-js
-
+bootstrap: bootstrap-img bootstrap-css bootstrap-js copies
 
 #
 # JS COMPILE
@@ -128,3 +127,12 @@ watch:
 
 
 .PHONY: docs watch gh-pages bootstrap-img bootstrap-css bootstrap-js
+
+#
+# COPY BOOTSTRAP FILES TO BLOG DIRECTORIES
+#
+copies: 
+	@cp bootstrap/css/bootstrap.min.css ../mango-blog/css/
+	@cp bootstrap/css/bootstrap-responsive.min.css ../mango-blog/css/
+	@cp bootstrap/js/bootstrap.min.js ../mango-blog/js/
+
