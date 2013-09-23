@@ -813,6 +813,13 @@
   .container-fluid {
     padding: 0;
   }
+  .section {
+    margin-left: 20px;
+  }
+  .section h2,
+  .section h3 {
+    margin-left: -20px;
+  }
   .dl-horizontal dt {
     float: none;
     width: auto;
@@ -842,6 +849,7 @@
     display: block;
     float: none;
     width: 100%;
+    margin-top: 10px;
     margin-left: 0;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;

@@ -236,7 +236,7 @@ body {
 }
 
 article {
-  padding: 12px;
+  padding: 24px;
   line-height: 22px;
   background: #ffffff;
   border: 1px solid #ddd;
@@ -253,6 +253,15 @@ footer {
   padding-top: 15px;
   margin-top: 10px;
   border-top: 1px solid #eeeeee;
+}
+
+.section {
+  margin-left: 40px;
+}
+
+.section h2,
+.section h3 {
+  margin-left: -40px;
 }
 
 a {
@@ -693,6 +702,7 @@ p {
 
 small {
   font-size: 85%;
+  font-style: italic;
 }
 
 strong {
@@ -6184,6 +6194,10 @@ body {
 .icon-twitter {
   background-image: url("../img/bird_14_black.png");
   background-position: 0 center;
+}
+
+.post-thumbnail {
+  max-height: 100px;
 }
 
 .pull-right {
