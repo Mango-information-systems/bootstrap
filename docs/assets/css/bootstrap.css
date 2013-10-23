@@ -256,12 +256,12 @@ footer {
 }
 
 .section {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .section h2,
 .section h3 {
-  margin-left: -40px;
+  margin-left: -30px;
 }
 
 a {
@@ -805,17 +805,21 @@ h3 {
   line-height: 33px;
 }
 
+.blog h3 {
+  line-height: 22px;
+}
+
 h1 {
-  font-size: 36px;
+  font-size: 32px;
   color: #26963c;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 20.8px;
 }
 
 h4 {
@@ -831,11 +835,11 @@ h6 {
 }
 
 h1 small {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h2 small {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h3 small {
@@ -855,7 +859,7 @@ h4 small {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 11px 25px;
+  margin: 0 0 11px 35px;
 }
 
 ul ul,
@@ -1010,6 +1014,13 @@ address {
   margin-bottom: 22px;
   font-style: normal;
   line-height: 22px;
+}
+
+pre {
+  white-space: pre-wrap;
+  tab-size: 3;
+  -moz-tab-size: 3;
+    -o-tab-size: 3;
 }
 
 code,
@@ -5590,8 +5601,9 @@ input[type="submit"].btn.btn-mini {
 
 .thumbnail {
   display: block;
-  padding: 8px;
+  padding: 8px 12px;
   line-height: 22px;
+  color: #333333;
   background: #ffffff;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
@@ -5608,6 +5620,7 @@ input[type="submit"].btn.btn-mini {
 
 a.thumbnail:hover,
 a.thumbnail:focus {
+  text-decoration: none;
   border-color: #26963c;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
      -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
@@ -5624,6 +5637,11 @@ a.thumbnail:focus {
 .thumbnail .caption {
   padding: 9px;
   color: #555555;
+}
+
+.blog .thumbnail {
+  height: 310px;
+  overflow: auto;
 }
 
 .media,
