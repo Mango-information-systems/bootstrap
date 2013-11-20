@@ -109,24 +109,24 @@ module.exports = function(grunt) {
         src: ["fonts/*"],
         dest: 'dist/'
       }
-	  , buildCss: {
-	  	expand: true,
-	  	cwd: 'dist/css',
-	  	src: ['*'],
-	  	dest: '../site/public/assets/css/'
-	  }
-	  , buildJs: {
-	  	expand: true,
-	  	cwd: 'dist/js/',
-	  	src: ['*'],
-	  	dest: '../site/public/assets/js/'
-	  }
-	  , buildFonts: {
-	  	expand: true,
-	  	cwd: 'dist/fonts',
-	  	src: ['*'],
-	  	dest: '../site/public/assets/fonts/'
-		}
+      , buildCss: {
+          expand: true,
+          cwd: 'dist/css',
+          src: ['*'],
+          dest: '../site/public/assets/css/'
+      }
+      , buildJs: {
+          expand: true,
+          cwd: 'dist/js/',
+          src: ['*'],
+          dest: '../site/public/assets/js/'
+      }
+      , buildFonts: {
+          expand: true,
+          cwd: 'dist/fonts',
+          src: ['*'],
+          dest: '../site/public/assets/fonts/'
+        }
     },
 
     qunit: {
