@@ -109,6 +109,24 @@ module.exports = function(grunt) {
         src: ["fonts/*"],
         dest: 'dist/'
       }
+	  , buildCss: {
+	  	expand: true,
+	  	cwd: 'dist/css',
+	  	src: ['*'],
+	  	dest: '../site/public/assets/css/'
+	  }
+	  , buildJs: {
+	  	expand: true,
+	  	cwd: 'dist/js/',
+	  	src: ['*'],
+	  	dest: '../site/public/assets/js/'
+	  }
+	  , buildFonts: {
+	  	expand: true,
+	  	cwd: 'dist/fonts',
+	  	src: ['*'],
+	  	dest: '../site/public/assets/fonts/'
+		}
     },
 
     qunit: {
@@ -208,10 +226,13 @@ module.exports = function(grunt) {
   grunt.registerTask('dist-css', ['recess']);
 
   // Fonts distribution task.
-  grunt.registerTask('dist-fonts', ['copy']);
+  grunt.registerTask('dist-fonts', ['copy:fonts']);
+
+  // Build distribution task.
+  grunt.registerTask('dist-build', ['copy:buildCss', 'copy:buildJs', 'copy:buildFonts']);
 
   // Full distribution task.
-  grunt.registerTask('dist', ['clean', 'dist-css', 'dist-fonts', 'dist-js']);
+  grunt.registerTask('dist', ['clean', 'dist-css', 'dist-fonts', 'dist-js', 'dist-build']);
 
   // Default task.
   grunt.registerTask('default', ['test', 'dist', 'build-customizer']);
