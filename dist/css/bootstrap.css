@@ -7139,7 +7139,7 @@ td.visible-print {
   width: 36px;
   height: 36px;
   margin: 0 auto;
-  background: url(img/spinner.gif) no-repeat;
+  background: url(/assets/img/spinner.gif) no-repeat;
 }
 
 #hPot {
