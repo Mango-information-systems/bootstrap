@@ -398,7 +398,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
@@ -4553,6 +4553,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
   line-height: 22px;
 }
 
@@ -7173,11 +7174,4 @@ td.visible-print {
 
 #form-feedback {
   display: none;
-}
-
-#report-screenshot:hover {
-  cursor: pointer;
-  border-color: #143673;
-  -webkit-box-shadow: 0px 0px 4px 0px #143673;
-          box-shadow: 0px 1px 4px 0px #143673;
 }
