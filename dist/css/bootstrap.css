@@ -303,7 +303,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Tribalytics Main", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
@@ -397,7 +397,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Tribalytics Main", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
@@ -7128,6 +7128,13 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+@font-face {
+  font-family: 'Tribalytics Main';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 
 .tribalytics-logo {
