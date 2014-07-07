@@ -5831,4 +5831,281 @@ button.close {
 #form-feedback {
   display: none;
 }
+.tw_authority {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+.btn.buttonHeading {
+  padding: 0;
+  margin: 15px !important;
+  font-size: 29px;
+  background-color: #eee;
+  border: none !important;
+  border-bottom: 1px solid #1f54b4 !important;
+  border-radius: 0;
+}
+.btn.buttonHeading:hover {
+  background-color: #999;
+}
+.btn.buttonHeading.caret {
+  font-size: 29px;
+}
+footer {
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background-color: #7f7f7f;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+.giant {
+  font-size: 2em;
+}
+.large {
+  font-size: 1.5em;
+}
+.normal {
+  font-size: 1em;
+}
+.badge {
+  margin: 2px;
+}
+a.editable-click:hover {
+  background: #fff;
+}
+.editable-panel-footer-cmnty,
+.editable-panel-footer-report {
+  color: #000;
+}
+.editable-empty-custom {
+  color: #999;
+  text-decoration: none;
+}
+.url,
+.wordwrap {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+#sidebar {
+  z-index: 1;
+}
+/**** Affix ****/
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    width: 255px;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    width: 255px;
+    overflow-y: auto;
+  }
+}
+.affix,
+.affix-top {
+  position: static;
+}
+#sidebar li.active a {
+  color: #fff;
+  background-color: #333;
+}
+.page-break {
+  display: none;
+}
+.tag-holder h4 {
+  display: block;
+  clear: both;
+}
+/**** Segment Chart CSS *****/
+rect.background {
+  fill: white;
+}
+.axis {
+  shape-rendering: crispEdges;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+}
+.enter {
+  padding: 0;
+}
+/*** fix for hidden anchors under the header ***/
+/*** as seen in http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header ***/
+a.anchor {
+  position: relative;
+  top: -60px;
+  display: block;
+  visibility: hidden;
+}
+/* Segment sidebar remove padding */
+.segment-sidebar .list-group-item {
+  padding: 0 0 !important;
+}
+.align-center {
+  text-align: center;
+}
+.tag-holder p.small {
+  font-size: 70%;
+  line-height: 1;
+}
+.tag-holder rect.background {
+  fill: #f5f5f5;
+}
+.panel-title-badge {
+  margin-right: 10px;
+}
+.panel-title-badge-guide {
+  margin-right: 0 !important;
+}
+.introjs-helperNumberLayer {
+  line-height: 11px !important;
+}
+.panel-default > .panel-heading-inverse {
+  color: #fff;
+  background-color: #333;
+}
+.cmnty-edit-icon {
+  margin: 0 10px;
+}
+.hidden-report-init {
+  display: none;
+}
+.spinner-pull-right {
+  top: 20px;
+  float: right;
+}
+#inline-competitive-report-form {
+  padding: 20px;
+}
+/* Table fixed height */
+.table-fixed-height {
+  height: 350px;
+  overflow-y: auto;
+}
+/* TR Border right Is own */
+.borderRIghtIsOwn {
+  border-right: 3px solid #009d10;
+}
+.border-left {
+  border-left: 1px solid #ccc;
+}
+.tm-tag.tm-tag-warning {
+  color: #fff !important;
+}
+.valign-middle {
+  vertical-align: middle !important;
+}
+.valign-top {
+  vertical-align: top !important;
+}
+.inline-block {
+  display: inline-block;
+}
+.guide-question-mark {
+  margin-top: 18px;
+  font-size: 2em;
+}
+/**************** INFLUENCERS *************************/
+li.facet-hover div:hover {
+  background: #eee  !important;
+}
+#wrap {
+  min-height: 600px;
+}
+h4.panel-influencers-title {
+  color: #aaa;
+}
+li.facet-header {
+  padding: 0;
+}
+li.facet-hover {
+  padding: 0 15px;
+}
+.selected-row {
+  background-color: #f3e09a;
+}
+@media print {
+  #wrap > .container {
+    padding-top: 0;
+  }
+  .page-header {
+    padding-bottom: 9px;
+    margin: 0;
+    border-bottom: 0 solid #eee;
+  }
+  .cmnty {
+    color: #fff !important;
+
+    -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+  }
+  .badge {
+    color: #fff !important;
+    background-color: #777 !important;
+
+    -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+  }
+  .editable-click,
+  a.editable-click,
+  a.editable-click:hover {
+    color: #000 !important;
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+  .editable-empty-custom {
+    display: none;
+  }
+  .btn-add-to-list {
+    display: none;
+  }
+  .loadmore {
+    display: none;
+  }
+  a[href]:after {
+    content: none;
+  }
+  .page-break {
+    display: block;
+
+    page-break-before: always;
+  }
+  .table-community-members {
+    width: 100%;
+  }
+  .tw_authority {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: right;
+  }
+  #footer {
+    display: none;
+  }
+  .col-md-9 {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  h2.print-brand {
+    line-height: 40px;
+  }
+  .tag-holder rect.background {
+    fill: #fff;
+  }
+  /* Table fixed height */
+  .table-fixed-height {
+    height: auto !important;
+    overflow-y: visible !important;
+  }
+}
 /*# sourceMappingURL=bootstrap.css.map */
