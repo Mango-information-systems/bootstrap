@@ -6015,6 +6015,9 @@ a.anchor {
   margin-top: 18px;
   font-size: 2em;
 }
+#facet-search a {
+  color: #555;
+}
 /**************** INFLUENCERS *************************/
 li.facet-hover div:hover {
   background: #eee  !important;
