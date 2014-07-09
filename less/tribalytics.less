@@ -269,7 +269,7 @@ a.anchor{display: block; position: relative; top: -60px; visibility: hidden;}
 	font-size: 2em;
 }
 
-#facet-search a {
+ul.facet-search a {
 	color: @gray;
 }
 
@@ -295,10 +295,17 @@ li.facet-hover {
 	padding: 0px 15px;
 }
 
-.selected-row {
-	background-color: #f3e09a;
+.influencer-row, .select-all-row {
+	border-left: 5px solid transparent;
 }
 
+.selected-row {
+	border-left: 5px solid #ffa70e;
+}
+
+.influencer-panel .panel-heading.selected-panel {
+	background-color: #ffa70e;
+}
 
 @media print {
 

@@ -273,7 +273,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  margin: 60px 0 0 0;
+  margin: 40px 0 0 0;
   font-family: "Tribalytics Main", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -6015,7 +6015,7 @@ a.anchor {
   margin-top: 18px;
   font-size: 2em;
 }
-#facet-search a {
+ul.facet-search a {
   color: #555;
 }
 /**************** INFLUENCERS *************************/
@@ -6034,8 +6034,15 @@ li.facet-header {
 li.facet-hover {
   padding: 0 15px;
 }
+.influencer-row,
+.select-all-row {
+  border-left: 5px solid transparent;
+}
 .selected-row {
-  background-color: #f3e09a;
+  border-left: 5px solid #ffa70e;
+}
+.influencer-panel .panel-heading.selected-panel {
+  background-color: #ffa70e;
 }
 @media print {
   #wrap > .container {
