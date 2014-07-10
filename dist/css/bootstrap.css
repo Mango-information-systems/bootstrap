@@ -3794,6 +3794,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 20px;
 }
@@ -6018,6 +6019,10 @@ a.anchor {
 ul.facet-search a {
   color: #555;
 }
+ul.facet-search .list-group-item-plain {
+  margin-top: -5px;
+  border: none;
+}
 /**************** INFLUENCERS *************************/
 li.facet-hover div:hover {
   background: #eee  !important;
@@ -6032,7 +6037,13 @@ li.facet-header {
   padding: 0;
 }
 li.facet-hover {
-  padding: 0 15px;
+  padding: 0 0 0 2px;
+}
+ul.list-group-counties {
+  margin-bottom: 0;
+}
+ul.list-group-states .checkbox {
+  margin-top: -5px;
 }
 .influencer-row,
 .select-all-row {

@@ -273,6 +273,11 @@ ul.facet-search a {
 	color: @gray;
 }
 
+ul.facet-search .list-group-item-plain {
+	border: none;
+	margin-top: -5px;
+}
+
 /**************** INFLUENCERS *************************/
 
 li.facet-hover div:hover{
@@ -292,7 +297,15 @@ li.facet-header {
 }
 
 li.facet-hover {
-	padding: 0px 15px;
+	padding: 0 0 0 2px;
+}
+
+ul.list-group-counties {
+	margin-bottom: 0;
+}
+
+ul.list-group-states .checkbox{
+	margin-top: -5px;
 }
 
 .influencer-row, .select-all-row {
@@ -306,6 +319,8 @@ li.facet-hover {
 .influencer-panel .panel-heading.selected-panel {
 	background-color: #ffa70e;
 }
+
+
 
 @media print {
 
