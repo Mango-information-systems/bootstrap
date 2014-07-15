@@ -6029,6 +6029,9 @@ ul.facet-search .list-group-item-plain.list-group-item-showmore {
   border: none;
 }
 /**************** INFLUENCERS *************************/
+.influencer-panel .panel-body {
+  padding-top: 0;
+}
 li.facet-hover div:hover {
   background: #eee  !important;
 }
