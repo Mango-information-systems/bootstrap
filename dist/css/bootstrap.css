@@ -6023,6 +6023,11 @@ ul.facet-search .list-group-item-plain {
   margin-top: -5px;
   border: none;
 }
+ul.facet-search .list-group-item-plain.list-group-item-showmore {
+  padding: 0;
+  margin-top: -5px;
+  border: none;
+}
 /**************** INFLUENCERS *************************/
 li.facet-hover div:hover {
   background: #eee  !important;
@@ -6039,7 +6044,9 @@ li.facet-header {
 li.facet-hover {
   padding: 0 0 0 2px;
 }
-ul.list-group-counties {
+ul.list-group-countries,
+ul.list-group-counties,
+ul.list-group-states {
   margin-bottom: 0;
 }
 ul.list-group-states .checkbox {
