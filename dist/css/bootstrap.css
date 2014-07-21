@@ -6065,6 +6065,12 @@ ul.list-group-states .checkbox {
 .influencer-panel .panel-heading.selected-panel {
   background-color: #ffa70e;
 }
+.influencer-panel .img-rounded {
+  margin: 0 10px 10px 0;
+}
+.meta-below-influencer {
+  margin: 0 0 5px;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
