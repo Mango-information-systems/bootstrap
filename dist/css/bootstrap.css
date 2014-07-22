@@ -6059,6 +6059,9 @@ ul.list-group-states .checkbox {
 .select-all-row {
   border-left: 5px solid transparent;
 }
+.influencer-row {
+  border-bottom: 1px solid #ddd;
+}
 .selected-row {
   border-left: 5px solid #ffa70e;
 }
