@@ -6074,6 +6074,9 @@ ul.list-group-states .checkbox {
 .meta-below-influencer {
   margin: 0 0 5px;
 }
+.dropdown-menu.dropdown-menu-lg {
+  min-width: 260px;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
