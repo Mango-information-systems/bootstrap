@@ -6080,6 +6080,19 @@ ul.list-group-states .checkbox {
 .influencer-panel .table-results {
   min-height: 300px;
 }
+#results-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+       opacity: .5;
+
+  -moz-opacity: .5;
+  -khtml-opacity: .5;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
