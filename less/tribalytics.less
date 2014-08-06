@@ -323,6 +323,12 @@ ul.list-group-states .checkbox{
 
 .influencer-row {
 	border-bottom: 1px solid @panel-default-border;
+	padding-top: 5px;
+}
+
+.influencer-row:hover {
+	cursor: pointer;
+	background-color: @table-bg-hover;
 }
 
 .selected-row {
@@ -334,7 +340,7 @@ ul.list-group-states .checkbox{
 }
 
 .influencer-panel .img-rounded {
-	margin: 0 10px 10px 0;
+	margin: 0 10px 0px 0;
 }
 
 .meta-below-influencer {
@@ -346,11 +352,11 @@ ul.list-group-states .checkbox{
 }
 
 .influencer-panel .table-results {
-	min-height: 300px;
+	/* min-height: 300px;*/
 }
 
 #results-overlay {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
