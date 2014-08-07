@@ -1,8 +1,9 @@
 /*
-	taken from https://github.com/bassjobsen/typeahead.js-bootstrap-css
+	based on https://github.com/bassjobsen/typeahead.js-bootstrap-css
 */
 .tt-dropdown-menu {
-&:extend(.dropdown-menu);
+	&:extend(.dropdown-menu);
+	width: 100%;
 }
 
 .tt-suggestion {
@@ -19,4 +20,8 @@
 		&:extend(.dropdown-menu > .active > a);
 		}
 	}
+}
+
+.twitter-typeahead, .tt-hint {
+     width: 100%;
 }
