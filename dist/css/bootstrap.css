@@ -5920,6 +5920,13 @@ a.editable-click:hover {
   word-wrap: break-word;
   white-space: pre-wrap;
 }
+body > footer {
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  background-color: #d6d6d6;
+}
 #sidebar {
   z-index: 1;
 }
