@@ -1,0 +1,27 @@
+/*
+	based on https://github.com/bassjobsen/typeahead.js-bootstrap-css
+*/
+.tt-dropdown-menu {
+	&:extend(.dropdown-menu);
+	width: 100%;
+}
+
+.tt-suggestion {
+	> p {
+		&:extend(.dropdown-menu > li > a);
+		&:hover,
+		&:focus {
+		&:extend(.dropdown-menu > .active > a);
+	}
+}
+
+&.tt-cursor {
+	> p {
+		&:extend(.dropdown-menu > .active > a);
+		}
+	}
+}
+
+.twitter-typeahead, .tt-hint {
+     width: 100%;
+}

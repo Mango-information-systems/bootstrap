@@ -397,27 +397,22 @@ h6 .small,
   color: #999;
 }
 h1,
-.h1 {
-  margin-top: 18px;
-  margin-bottom: 12px;
-}
-h1 small,
-.h1 small,
-h1 .small,
-.h1 .small {
-  font-size: 65%;
-}
+.h1,
 h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 12px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
+h1 small,
+.h1 small,
 h2 small,
 .h2 small,
 h3 small,
 .h3 small,
+h1 .small,
+.h1 .small,
 h2 .small,
 .h2 .small,
 h3 .small,
@@ -658,6 +653,10 @@ blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
+}
+blockquote a,
+blockquote a:hover {
+  color: #999;
 }
 .blockquote-reverse,
 blockquote.pull-right {
@@ -3013,7 +3012,8 @@ input[type="button"].btn-block {
 .dropdown-toggle:focus {
   outline: 0;
 }
-.dropdown-menu {
+.dropdown-menu,
+.tt-dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -3043,7 +3043,8 @@ input[type="button"].btn-block {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-.dropdown-menu > li > a {
+.dropdown-menu > li > a,
+.tt-suggestion > p {
   display: block;
   padding: 3px 20px;
   clear: both;
@@ -3060,10 +3061,13 @@ input[type="button"].btn-block {
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
+.dropdown-menu > .active > a:focus,
+.tt-suggestion > p:hover,
+.tt-suggestion > p:focus,
+.tt-suggestion.tt-cursor > p {
   color: #1f54b4;
   text-decoration: none;
-  background-color: #1f54b4;
+  background-color: #f5f5f5;
   outline: 0;
 }
 .dropdown-menu > .disabled > a,
@@ -5790,6 +5794,16 @@ button.close {
     display: none !important;
   }
 }
+/*
+	based on https://github.com/bassjobsen/typeahead.js-bootstrap-css
+*/
+.tt-dropdown-menu {
+  width: 100%;
+}
+.twitter-typeahead,
+.tt-hint {
+  width: 100%;
+}
 @font-face {
   font-family: 'Tribalytics Main';
   font-style: normal;
@@ -5819,8 +5833,9 @@ button.close {
   src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
 }
 .tribalytics-logo {
-  font-family: 'Lobster', cursive;
-  font-size: 28px;
+  font-family: 'Lobster';
+  font-size: 32px;
+  vertical-align: middle;
 }
 #spinner {
   display: none;
@@ -5832,7 +5847,7 @@ button.close {
 #hPot {
   display: none;
 }
-/**** Homepage Key List ****/
+/**** tribalytics raw landing page Key List ****/
 #key-list li {
   margin-bottom: 20px;
   font-size: 22px;
@@ -5849,7 +5864,11 @@ button.close {
 #key-list li:nth-child(3) span {
   color: #47a02c;
 }
-/**** End homepage Key List ****/
+/**** tribalytics raw landing page Key List ****/
+/**** homepage reference picture ****/
+.ref-pic {
+  max-width: 140px;
+}
 #form-feedback {
   display: none;
 }
@@ -5872,19 +5891,6 @@ button.close {
 }
 .btn.buttonHeading.caret {
   font-size: 29px;
-}
-footer {
-  z-index: 10;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-  background-color: #7f7f7f;
-}
-footer a {
-  color: #fff;
-}
-footer a:hover {
-  color: #fff;
 }
 .giant {
   font-size: 2em;
