@@ -5950,6 +5950,13 @@ a.editable-click:hover {
   display: block;
   clear: both;
 }
+/* communities report */
+div.cmnty-panel-before {
+  border-left: 5px solid black;
+}
+div.cmnty-panel-before span.badge {
+  background: black;
+}
 /**** Segment Chart CSS *****/
 rect.background {
   fill: white;
