@@ -5846,7 +5846,7 @@ button.close {
 #hPot {
   display: none;
 }
-/**** Homepage Key List ****/
+/**** tribalytics raw landing page Key List ****/
 #key-list li {
   margin-bottom: 20px;
   font-size: 22px;
@@ -5863,7 +5863,11 @@ button.close {
 #key-list li:nth-child(3) span {
   color: #47a02c;
 }
-/**** End homepage Key List ****/
+/**** tribalytics raw landing page Key List ****/
+/**** homepage reference picture ****/
+.ref-pic {
+  max-width: 140px;
+}
 #form-feedback {
   display: none;
 }
@@ -5937,8 +5941,7 @@ a.editable-click:hover {
   position: static;
 }
 #sidebar li.active a {
-  color: #fff;
-  background-color: #333;
+  background-color: #eee;
 }
 .page-break {
   display: none;
