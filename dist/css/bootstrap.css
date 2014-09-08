@@ -5847,6 +5847,13 @@ button.close {
 #hPot {
   display: none;
 }
+body > footer {
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  background-color: #d6d6d6;
+}
 /**** tribalytics raw landing page Key List ****/
 #key-list li {
   margin-bottom: 20px;
@@ -5949,8 +5956,7 @@ body > footer {
   position: static;
 }
 #sidebar li.active a {
-  color: #fff;
-  background-color: #333;
+  background-color: #eee;
 }
 .page-break {
   display: none;
@@ -5958,6 +5964,13 @@ body > footer {
 .tag-holder h4 {
   display: block;
   clear: both;
+}
+/* communities report */
+div.cmnty-panel-before {
+  border-left: 5px solid black;
+}
+div.cmnty-panel-before span.badge {
+  background: black;
 }
 /**** Segment Chart CSS *****/
 rect.background {
@@ -6049,6 +6062,13 @@ a.anchor {
 .guide-question-mark {
   margin-top: 18px;
   font-size: 2em;
+}
+.high-potential-cmnty-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.high-potential-cmnty-list li {
+  margin-bottom: 5px;
 }
 ul.facet-search a {
   color: #555;
