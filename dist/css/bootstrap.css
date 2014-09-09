@@ -6140,6 +6140,11 @@ li.facet-hover {
 
     page-break-before: always;
   }
+  /* Avatar */
+  .table-community-members td:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+  }
   .table-community-members {
     width: 100%;
   }
