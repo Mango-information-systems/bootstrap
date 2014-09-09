@@ -6062,6 +6062,16 @@ a.anchor {
 .high-potential-cmnty-list li {
   margin-bottom: 5px;
 }
+/* Avatar */
+.table-community-members td:nth-child(2) {
+  min-width: 150px;
+  max-width: 200px;
+}
+/* Description */
+.table-community-members td:nth-child(3) {
+  min-width: 300px;
+  max-width: 400px;
+}
 #facet-search a {
   color: #555;
 }
