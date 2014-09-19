@@ -6172,5 +6172,9 @@ li.facet-hover {
     height: auto !important;
     overflow-y: visible !important;
   }
+  .text-muted {
+    color: rgba(0, 0, 0, 0) !important;
+    text-shadow: 0 0 0 #999 !important;
+  }
 }
 /*# sourceMappingURL=bootstrap.css.map */
