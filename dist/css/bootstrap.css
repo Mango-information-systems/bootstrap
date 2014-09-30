@@ -6101,6 +6101,9 @@ li.facet-hover {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
 }
+.editable-community-name {
+  color: #333;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
