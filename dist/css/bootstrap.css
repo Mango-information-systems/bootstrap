@@ -6094,8 +6094,8 @@ li.facet-hover {
 .selected-row {
   background-color: #f3e09a;
 }
-.progress.progress-white {
-  background-color: #fff;
+.progress.progress-report-init {
+  margin-top: 32px;
 }
 .progress.progress-white .progress-bar {
   color: #fff;
