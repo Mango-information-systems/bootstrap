@@ -6098,7 +6098,8 @@ li.facet-hover {
   background-color: #fff;
 }
 .progress.progress-white .progress-bar {
-  color: #999;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
 }
 @media print {
   #wrap > .container {
