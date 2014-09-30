@@ -6104,6 +6104,19 @@ li.facet-hover {
 .editable-community-name {
   color: #333;
 }
+.venntooltip {
+  position: absolute;
+  width: 128px;
+  height: 28px;
+  padding: 2px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #000;
+  border: 0;
+  border-radius: 8px;
+  opacity: .9;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
