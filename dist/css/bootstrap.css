@@ -6116,6 +6116,14 @@ li.facet-hover {
   border-radius: 8px;
   opacity: .9;
 }
+.tag-cloud {
+  padding: 0 7px;
+  text-decoration: underline;
+}
+.tag-cloud.large,
+.tag-cloud.giant {
+  font-weight: bold;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
