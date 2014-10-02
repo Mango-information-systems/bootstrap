@@ -6124,6 +6124,9 @@ li.facet-hover {
 .tag-cloud.giant {
   font-weight: bold;
 }
+.init-nav .editable-error-block {
+  max-width: 260px;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
