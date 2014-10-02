@@ -6095,11 +6095,11 @@ li.facet-hover {
   background-color: #f3e09a;
 }
 .progress.progress-report-init {
-  margin-top: 32px;
+  margin-bottom: 10px !important;
 }
 .progress.progress-white .progress-bar {
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 2px #173366;
 }
 .editable-community-name {
   color: #333;
