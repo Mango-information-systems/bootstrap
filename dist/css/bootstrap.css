@@ -6093,6 +6093,9 @@ li.facet-hover {
 .progress.progress-report-init {
   margin-bottom: 10px !important;
 }
+.progress.progress-white {
+  background-color: #fff;
+}
 .progress.progress-white .progress-bar {
   color: #fff;
   text-shadow: 1px 1px 2px #173366;
