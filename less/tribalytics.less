@@ -139,6 +139,13 @@ a.editable-click:hover {
 	word-wrap: break-word;
 }
 
+body > footer {
+	background-color: #d6d6d6;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	z-index: 10;
+}
 
 #sidebar {
 	z-index: 1;
@@ -314,11 +321,25 @@ a.anchor{display: block; position: relative; top: -60px; visibility: hidden;}
 	max-width: 400px;
 }
 
-#facet-search a {
+ul.facet-search a {
 	color: @gray;
 }
 
+ul.facet-search .list-group-item-plain {
+	border: none;
+	margin-top: -5px;
+}
+
+ul.facet-search .list-group-item-plain.list-group-item-showmore {
+	border: none;
+	margin-top: -5px;
+	padding: 0;
+}
 /**************** INFLUENCERS *************************/
+
+.influencer-panel .panel-body {
+	padding-top: 0;
+}
 
 li.facet-hover div:hover{
 	background:#eee  !important;
@@ -337,11 +358,53 @@ li.facet-header {
 }
 
 li.facet-hover {
-	padding: 0px 15px;
+	padding: 0 0 0 2px;
+}
+
+ul.list-group-countries, ul.list-group-counties, ul.list-group-states {
+	margin-bottom: 0;
+}
+
+ul.list-group-states .checkbox{
+	margin-top: -5px;
+}
+
+.influencer-row, .select-all-row {
+	border-left: 5px solid transparent;
+}
+
+.influencer-row {
+	border-bottom: 1px solid @panel-default-border;
+	padding-top: 5px;
+}
+
+.influencer-row:hover {
+	cursor: pointer;
+	background-color: @table-bg-hover;
 }
 
 .selected-row {
-	background-color: #f3e09a;
+	border-left: 5px solid #ffa70e;
+}
+
+.influencer-panel .panel-heading.selected-panel {
+	background-color: #ffa70e;
+}
+
+.influencer-panel .img-rounded {
+	margin: 0 10px 0px 0;
+}
+
+.meta-below-influencer {
+	margin: 0 0 5px;
+}
+
+.dropdown-menu.dropdown-menu-lg {
+	min-width: 260px;
+}
+
+.influencer-panel .table-results {
+	/* min-height: 300px;*/
 }
 
 .progress.progress-report-init{
@@ -390,6 +453,18 @@ li.facet-hover {
 	max-width: 260px;
 }
 
+#results-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	z-index: 1000;
+}
 
 @media print {
 
@@ -424,12 +499,6 @@ li.facet-hover {
 
 
 	.editable-empty-custom {
-		display: none;
-	}
-	.btn-add-to-list {
-		display: none;
-	}
-	.loadmore {
 		display: none;
 	}
 
