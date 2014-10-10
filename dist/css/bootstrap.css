@@ -5965,13 +5965,6 @@ body > footer {
   display: block;
   clear: both;
 }
-/* communities report */
-div.cmnty-panel-before {
-  border-left: 5px solid black;
-}
-div.cmnty-panel-before span.badge {
-  background: black;
-}
 /**** Segment Chart CSS *****/
 rect.background {
   fill: white;
@@ -6065,6 +6058,12 @@ a.anchor {
 }
 .high-potential-cmnty-list li {
   margin-bottom: 5px;
+}
+.table-community-members {
+  border-top: 1px solid #ddd;
+}
+#communities-overview .community-members {
+  padding-top: 20px;
 }
 /* Avatar */
 .table-community-members td:nth-child(2) {
