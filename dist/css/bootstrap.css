@@ -5879,6 +5879,16 @@ body > footer {
 #form-feedback {
   display: none;
 }
+.dashboard-metrics {
+  font-size: 18px;
+  font-weight: bold;
+}
+.dashboard-metrics.quality-bad {
+  color: #d62728;
+}
+.dashboard-metrics.quality-good {
+  color: #47a02c;
+}
 .tw_authority {
   font-size: 18px;
   font-weight: bold;
