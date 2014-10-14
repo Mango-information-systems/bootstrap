@@ -5880,7 +5880,7 @@ body > footer {
   display: none;
 }
 .dashboard-metrics {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: bold;
 }
 .dashboard-metrics.quality-bad {
