@@ -5679,8 +5679,31 @@ button.close {
   display: none !important;
   visibility: hidden !important;
 }
+.affix-top {
+  position: static;
+}
 .affix {
   position: fixed;
+  top: 70px;
+  bottom: 0;
+  overflow-y: auto;
+}
+/**** Affix ****/
+@media (max-width: 1199px) {
+  .affix-top {
+    width: 231px;
+  }
+  .affix {
+    width: 231px;
+  }
+}
+@media (min-width: 1200px) {
+  .affix-top {
+    width: 261px;
+  }
+  #sidebar.affix {
+    width: 261px;
+  }
 }
 @-ms-viewport {
   width: device-width;
@@ -5946,22 +5969,6 @@ body > footer {
 }
 #sidebar {
   z-index: 1;
-}
-/**** Affix ****/
-@media (min-width: 979px) {
-  #sidebar.affix-top {
-    position: static;
-  }
-  #sidebar.affix {
-    position: fixed;
-    top: 70px;
-    bottom: 0;
-    overflow-y: auto;
-  }
-}
-.affix,
-.affix-top {
-  position: static;
 }
 #sidebar li.active a {
   background-color: #eee;

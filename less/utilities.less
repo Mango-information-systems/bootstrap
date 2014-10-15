@@ -51,6 +51,40 @@
 // For Affix plugin
 // -------------------------
 
+.affix-top {
+  position: static;
+}
+
 .affix {
   position: fixed;
+  top: 70px;
+  bottom: 0px;
+  overflow-y: auto;
 }
+
+/**** Affix ****/
+@media (max-width: @screen-md-max) {
+
+  .affix-top {
+    width: 231px;
+  }
+
+  .affix {
+    width: 231px;
+  }
+
+}
+
+@media (min-width: @screen-lg) {
+
+  .affix-top {
+    width: 261px;
+  }
+
+  #sidebar.affix {
+    width: 261px;
+  }
+
+}
+
+
