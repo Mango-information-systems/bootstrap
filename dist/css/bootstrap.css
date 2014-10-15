@@ -6211,7 +6211,7 @@ ul.list-group-states .checkbox {
 .where-svg-container {
   max-width: 300px;
 }
-.media-body.media-body-no-overflow {
+.table-community-members .media-body {
   overflow: visible;
 }
 @media print {
