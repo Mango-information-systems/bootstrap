@@ -6082,12 +6082,10 @@ a.anchor {
 }
 /* Avatar */
 .table-community-members td:nth-child(2) {
-  min-width: 150px;
   max-width: 200px;
 }
 /* Description */
 .table-community-members td:nth-child(3) {
-  min-width: 300px;
   max-width: 400px;
 }
 ul.facet-search a {
@@ -6208,6 +6206,13 @@ ul.list-group-states .checkbox {
 
   -moz-opacity: .5;
   -khtml-opacity: .5;
+}
+.venn-svg-container,
+.where-svg-container {
+  max-width: 300px;
+}
+.media-body.media-body-no-overflow {
+  overflow: visible;
 }
 @media print {
   #wrap > .container {
