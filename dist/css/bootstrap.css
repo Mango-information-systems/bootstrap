@@ -2666,6 +2666,9 @@ input[type="button"].btn-block {
 .glyphicon-question-sign:before {
   content: "\e085";
 }
+.glyphicon-info-sign {
+  color: #ddd;
+}
 .glyphicon-info-sign:before {
   content: "\e086";
 }
