@@ -6208,6 +6208,9 @@ ul.list-group-states .checkbox {
   -moz-opacity: .5;
   -khtml-opacity: .5;
 }
+#treemap-container {
+  min-height: 300px;
+}
 .venn-svg-container,
 .where-svg-container {
   max-width: 300px;
