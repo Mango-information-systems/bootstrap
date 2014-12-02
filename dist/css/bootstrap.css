@@ -6221,6 +6221,9 @@ ul.list-group-states .checkbox {
 .table-community-members .media-body {
   overflow: visible;
 }
+#influencer-report-list-togle {
+  margin: 0 0 10px 0;
+}
 @media print {
   #wrap > .container {
     padding-top: 0;
