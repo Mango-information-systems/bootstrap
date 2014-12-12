@@ -6056,6 +6056,9 @@ a.anchor {
 .border-left {
   border-left: 1px solid #ccc;
 }
+.tm-tag {
+  font-family: "Tribalytics Main", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
 .tm-tag.tm-tag-warning {
   color: #fff !important;
 }
@@ -6274,6 +6277,17 @@ ul.list-group-states .checkbox {
   float: right;
 }
 /* End Influencer selection sidebar */
+/* Influencer current filter */
+.influencer-current-filters .tm-tag {
+  padding: 0 2px;
+  margin-bottom: 0;
+  font-size: 14px;
+  vertical-align: top;
+  background-color: transparent;
+  border: 0 solid #fff;
+  box-shadow: none;
+}
+/* End Influencer current filter */
 @media print {
   #wrap > .container {
     padding-top: 0;

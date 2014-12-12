@@ -265,6 +265,10 @@ a.anchor{display: block; position: relative; top: -60px; visibility: hidden;}
 	border-left: 1px solid #ccc;
 }
 
+.tm-tag {
+	font-family: "Tribalytics Main", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .tm-tag.tm-tag-warning {
 	color: #fff !important;
 }
@@ -512,7 +516,7 @@ ul.list-group-states .checkbox{
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
-	font-size: 14px;
+	font-size: @font-size-base;
 }
 
 .influencer-selection-item .img-wrap:hover .close {
@@ -533,7 +537,18 @@ ul.list-group-states .checkbox{
 
 /* End Influencer selection sidebar */
 
+/* Influencer current filter */
+.influencer-current-filters .tm-tag {
+	background-color: transparent;
+	border: 0px solid #fff;
+	box-shadow: none;
+	font-size: @font-size-base;
+	padding: 0 2px;
+	margin-bottom: 0;
+	vertical-align: top;
+}
 
+/* End Influencer current filter */
 @media print {
 
 	#wrap > .container {
