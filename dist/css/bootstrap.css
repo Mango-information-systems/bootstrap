@@ -6224,6 +6224,56 @@ ul.list-group-states .checkbox {
 #influencer-report-list-togle {
   margin: 0 0 10px 0;
 }
+/* Influencer selection sidebar */
+.influencer-selection-item {
+  width: 75px;
+  overflow: hidden;
+  text-align: center;
+}
+.influencer-selection-item .img-wrap {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+.influencer-selection-item .img-wrap .close {
+  position: absolute;
+  top: -8px;
+  right: -4px;
+  z-index: 100;
+  padding: 5px 2px 2px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 10px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+}
+.influencer-selection-item .img-wrap .close .tm-tag-remove {
+  margin-left: 0 !important;
+}
+.tm-tag.influencer-selection-item {
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.influencer-selection-item .img-wrap:hover .close {
+  opacity: 1;
+}
+.tm-tag.influencer-filter-selection-item {
+  display: block;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.tm-tag.influencer-filter-selection-item .tm-tag-remove {
+  float: right;
+}
+/* End Influencer selection sidebar */
 @media print {
   #wrap > .container {
     padding-top: 0;
